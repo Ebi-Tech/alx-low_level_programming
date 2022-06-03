@@ -6,19 +6,20 @@
 int main(void)
 {
 	int t;
-	int o;
+	int m;
 
-	for (t = '0'; t <= '9'; t++) /*print t places*/
+	for (t = 0; t < 9; t++)
 	{
-		for (o = '0'; o <= '9'; o++) /*print o places*/
+		for (m = t + 1; m < 10; m++)
 		{
-			putchar(t);
-			putchar(o);
-			if (!(t == '9' && o == '9')) /*skip comma at end*/
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar((t % 10) + '0');
+			putchar((m % 10) + '0');
+
+			if (t == 8 && m == 9)
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
