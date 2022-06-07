@@ -1,16 +1,13 @@
 #include "main.h"
 /**
- *main - Entry point
- *print_alphabet - prints the english alphabet from a-z.
+ * print_alphabet - prints the english alphabet from a-z
  * Return: 0
+ *
  */
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet(void);
-
+	int _putchar(char c);
 	int c = 'a';
-
-	void _putchar(int);
 
 	while (c <= 'z')
 	{
