@@ -1,10 +1,12 @@
-#include "_putchar.h"
+#include "main.h"
 /**
  * main - Entry point
  * Return: 0
  */
 int main(void)
 {
+	void _putchar();
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
