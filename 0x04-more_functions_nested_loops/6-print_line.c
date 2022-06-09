@@ -3,7 +3,7 @@
 /**
  * print_line - draws a straight line in the terminal
  * @n: number of times
- * Return: 0
+ * Return: void
  */
 
 void print_line(int n)
@@ -15,6 +15,4 @@ void print_line(int n)
 		_putchar('_');
 	}
 	_putchar('\n');
-
-	return (0);
 }
