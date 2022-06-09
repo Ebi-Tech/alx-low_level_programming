@@ -3,7 +3,6 @@
 /**
  * print_diagonal - draws a diagonal line on the terminal
  * @n: character to check
- * Return: 0
  */
 
 void print_diagonal(int n)
@@ -20,6 +19,5 @@ void print_diagonal(int n)
 		}
 		_putchar('\\');
 		_putchar('\n');
-
-		return (0);
+	}
 }
