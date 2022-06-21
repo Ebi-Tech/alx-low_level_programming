@@ -121,7 +121,6 @@ You are allowed to use the standard library
 
 12. Noise is a buffer, more effective than cubicles or booth walls
 
-Score: 100.00% (Checks completed: 100.00%)
 Write a function that prints a buffer.
 
 Prototype: void print_buffer(char *b, int size);
